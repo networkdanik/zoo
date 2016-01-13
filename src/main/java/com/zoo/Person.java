@@ -3,10 +3,15 @@ package com.zoo;
 
 
 public class Person {
-    private  String firstName;
-    private String lastName;
-    private  int age;
-    private  float weight;
+
+    protected String firstName;
+    protected String lastName;
+    protected int age;
+    protected float weight;
+
+    public Person(){
+
+    }
 
     public Person(String firstName,String lastName, int age, long weight){
         this.firstName = firstName;
