@@ -19,6 +19,26 @@ public class Executor {
         Animal cat = new Cat();
         executor.giveVoice(dog);
         executor.giveVoice(cat);
+
+        // Swim
+
+        Swimable dog1 = new Dog();
+        Swimable cat1 = new Cat();
+        Swimable fish = new Fish();
+
+        executor.swimble(dog1);
+        executor.swimble(cat1);
+        executor.swimble(fish);
+
+
+
+
+        }
+
+    private void swimble(Swimable swimable){
+        swimable.swim();
+
+
 }
         private  void printPersonPasha(Person person) {
         System.out.println("Person: " + "Firstname -" + " " + person.getFirstName()
