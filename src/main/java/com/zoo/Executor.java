@@ -1,5 +1,9 @@
 package com.zoo;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created by networkdanik on 13.01.16.
  */
@@ -26,20 +30,23 @@ public class Executor {
         Swimable cat1 = new Cat();
         Swimable fish = new Fish();
 
-        executor.swimble(dog1);
-        executor.swimble(cat1);
-        executor.swimble(fish);
 
+        List<Swimable> list  = Arrays.asList(dog1, cat1, fish);
 
-
-
+        for (Swimable swimbleList : list){
+            executor.swimblePrint(swimbleList);
         }
+    }
 
-    private void swimble(Swimable swimable){
+    private void swimblePrint(Swimable swimable){
         swimable.swim();
 
+    }
 
-}
+
+
+
+
         private  void printPersonPasha(Person person) {
         System.out.println("Person: " + "Firstname -" + " " + person.getFirstName()
                 + " " + "Lasname -" + " " + person.getLastName()
