@@ -3,7 +3,7 @@ package com.zoo;
 /**
  * Created by networkdanik on 1/15/16.
  */
-public class ExamplesArrayList {
+public class ExamplesCollectionsArrayList {
    final  static String[] WEEKDAY ={"MON", "WEM", "TUE", "THU", "FRI", "SAT", "SUN"};
 
     public static void main(String[] args) {
