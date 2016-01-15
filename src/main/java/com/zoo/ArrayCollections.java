@@ -19,7 +19,7 @@ public class ArrayCollections {
  */
 public static void main(String[] args) {
 
-    List<String> strList = new ArrayList<>();
+    List<String> strList = new ArrayList<String>();
          strList.add("John");
          strList.add("Willi");
          strList.add("Iwan");
